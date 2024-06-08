@@ -4,7 +4,7 @@ use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return redirect()->route('home'); // Rediriger vers la page d'accueil
+    return view('welcome');
 });
 Route::get('/publications', [HomeController::class, 'publications'])->name('publications');
 Route::get('/service1bureau1', [HomeController::class, 'service1bureau1'])->name('service1bureau1');

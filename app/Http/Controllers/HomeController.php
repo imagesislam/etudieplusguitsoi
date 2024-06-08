@@ -15,6 +15,7 @@ class HomeController extends Controller
         // Passe les publications à la vue home.blade.php dans resources/views
         return view('home', compact('posts'));
     }
+    
 
     public function publications()
     {
