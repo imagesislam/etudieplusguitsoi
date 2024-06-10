@@ -41,7 +41,7 @@
     </style>
      
 </head>
-<body style="background-image: url('{{ asset('images/fond.gif') }}'); margin-left: 30px;">
+<body style="background-image: url('{{ asset('images/fond.gif') }}');">
 <div id="container" >
     <div id="header">
         <div class="content">
