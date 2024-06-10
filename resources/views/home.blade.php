@@ -603,86 +603,85 @@
 
                              
 
-                             <div class="ms-dialogHidden content foot" id="contentFooter">
-                                  <table>
-                                      <tr>
-                                          <td>
-                                              <strong>ⴰⵎⵔⵏⵓ ⵏ ⵜⵎⴰⵡⴰⵙⵜ - ⵉⵎⵉⵏⵔⵡⴰⵃ - ⵔⴱⴰⴹ ⵜⴱⴰⴹ ⵜⵉⵍⵉⴼⵓⵏ</strong>
-                                          </td>
-                                          <td>0537687219</td>
-                                          <td>المقر المركزي - باب الرواح - الهاتف : 0537687219 - الفاكس : 0537771874</td>
-                                      </tr>
-                                  </table>
-                            </div>
-                            <div style="clear:both"></div>
-                            <div id="footer">
-                                <div class="content">
-                                    <ul id="keys">
-                                        <li>
-                                            <h4>فضاءات</h4>
-                                            <ul>
-                                                <li><a href="https://waliye.men.gov.ma/Ar/EspacePrive/Pages/Accueil.aspx">فضاء الآباء و الأمهات</a></li>
-                                                <li><a href="https://moutamadris.men.gov.ma/Ar/EspacePrive/Pages/Accueil.aspx">فضاء  التلميذات والتلاميذ</a></li>
-                                                <li><a href="PROEF.aspx">فضاء الموارد البشرية</a></li>
-                                                <li><a href="espresse.aspx">فضاء الصحافة</a></li>
-                                                <li><a href="Espace.aspx">فضاء الشركاء</a></li>
-                                                <li><a href="academies-2.html">مواقع الأكاديميات</a></li>
-                                                <li><a href="http://www.cpge.ac.ma/" target="_blank">الأقسام التحضيرية للمدارس العليا</a></li>
-                                                <li><a href="bts-2.html">شهادة التقني العالي</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <h4>تقاسم</h4>
-                                            <ul>
-                                                <li><a href="ListeActualites-2.html">كل المستجدات</a></li>
-                                                <li><a href="ToutesPublications.html">إعلانات ومذكرات</a></li>
-                                                <li><a href="statistiques.html">إحصائيات</a></li>
-                                                <li><a href="Accueil-2.html">الانخراط في الرسالة الإلكترونية</a></li>
-                                                <li><a href="https://www.facebook.com/pages/وزارة-التربية-الوطنية/217195898394205#%21/pages/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9/217195898394205"> الصفحة الرسمية على Facebook</a></li>
-                                                <li><a href="https://www.youtube.com/user/EducationMa" target="_blank">الصفحة الرسمية على Youtube</a></li>
-                                                <li><a href="https://twitter.com/MarocEducation" target="_blank">الصفحة الرسمية على X</a></li>
-                                                <li><a href="Accueil-2.html">استطلاعات للرأي</a></li>
-                                                <li><a href="forum-2.html">منتديات</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <h4>خدمات</h4>
-                                            <ul>
-                                                <li><a href="#">طلبات العروض</a></li>
-                                                <li><a href="Accueil.aspx">صندوق الاقتراحات</a></li>
-                                                <li><a href="Téléphonique.aspx">دليل الإدارة المركزية</a></li>
-                                                <li><a href="annuaire-2.html">دليل المؤسسات</a></li>
-                                                <li class="last"><a href="services.html">خدمات القطاع</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <h4>روابط مفيدة​</h4>
-                                            <ul>
-                                                <li><a href="https://www.sahara.ma/ar/" target="_blank">بوابة الصحراء المغربية</a></li>
-                                                <li><a href="http://www.cg.gov.ma/" target="_blank">رئيس الحكومة</a></li>
-                                                <li><a href="http://www.mmsp.gov.ma/" target="_blank">الوظيفة العمومية</a></li>
-                                                <li><a href="http://www.sgg.gov.ma/arabe/Accueil.aspx" target="_blank">الأمانة العامة للحكومة</a></li>
-                                                <li><a href="http://www.service-public.ma/web/guest/home" target="_blank">الإدارة العمومية</a></li>
-                                                <li><a href="http://www.emploi-public.ma/ar/index.asp" target="_blank">موقع التشغيل العمومي</a></li>
-                                                <li><a href="https://www.marchespublics.gov.ma/pmmp/?lang=ar" target="_blank">الصفقات العمومية</a></li>
-                                                <li><a href="http://www.service-public.ma/web/guest/home" target="_blank">البوابة الوطنية</a></li>
-                                                <li><a href="http://www.egov.ma/Pages/Default.aspx" target="_blank">الحكومة الإلكترونية</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <h4>اتصال و بحث</h4>
-                                            <ul>
-                                                <li><a href="pedagintegration.html">اتصال</a></li>
-                                                <li><a href="boite_a_idees.html">علبة الأفكار</a></li>
-                                                <li><a href="Accueil-2.html">محرك البحث</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <div class="copyright">
-                                        ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ - ⵜⴰⵎⴰⵡⴰⵙⵜ ⵏ ⵓⵙⴳⵎⵉ ⴰⵏⴰⵎⵓⵔ ⴷ ⵓⵙⵙⵍⵎⴷ ⴰⵎⵣⵡⴰⵔⵓ ⴷ ⵜⵓⵏⵏⵓⵏⵜ © المملكة المغربية - وزارة التربية الوطنية و التعليم الأولي و الرياضة 2024
-                                    </div>
-                                </div>
-                            </div>
+                            
+
+
+
+                             
+                             <div style="background:#f6a228;color:#fff;text-align:center;line-height:30px;font-size:13px;margin-top:8px">
+    <table style="background-color: orange; margin: auto;">
+        <tr>
+            <td colspan="3">
+                <strong>ⴰⵎⵔⵏⵓ ⵏ ⵜⵎⴰⵡⴰⵙⵜ - ⵉⵎⵉⵏⵔⵡⴰⵃ - ⵔⴱⴰⴹ ⵜⴱⴰⴹ ⵜⵉⵍⵉⴼⵓⵏ</strong> 0537687219 - المقر المركزي - باب الرواح - الهاتف : 0537687219 - الفاكس : 0537771874
+            </td>
+        </tr>
+    </table>
+</div>
+<div style="clear:both"></div>
+<div  style="text-align: center;">
+    <div class="content" style="display: inline-block; text-align: right;firection:rtl;">
+        <table style="margin: auto;">
+            <tr>
+                <td style="padding-right: 10px;">
+                    <h4>فضاءات</h4>
+                    <a href="https://waliye.men.gov.ma/Ar/EspacePrive/Pages/Accueil.aspx">فضاء الآباء و الأمهات</a><br>
+                    <a href="https://moutamadris.men.gov.ma/Ar/EspacePrive/Pages/Accueil.aspx">فضاء  التلميذات والتلاميذ</a><br>
+                    <a href="PROEF.aspx">فضاء الموارد البشرية</a><br>
+                    <a href="espresse.aspx">فضاء الصحافة</a><br>
+                    <a href="Espace.aspx">فضاء الشركاء</a><br>
+                    <a href="academies-2.html">مواقع الأكاديميات</a><br>
+                    <a href="http://www.cpge.ac.ma/" target="_blank">الأقسام التحضيرية للمدارس العليا</a><br>
+                    <a href="bts-2.html">شهادة التقني العالي</a>
+                </td>
+                <td style="padding-right: 10px;">
+                    <h4>تقاسم</h4>
+                    <a href="ListeActualites-2.html">كل المستجدات</a><br>
+                    <a href="ToutesPublications.html">إعلانات ومذكرات</a><br>
+                    <a href="statistiques.html">إحصائيات</a><br>
+                    <a href="Accueil-2.html">الانخراط في الرسالة الإلكترونية</a><br>
+                    <a href="https://www.facebook.com/pages/وزارة-التربية-الوطنية/217195898394205#%21/pages/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9/217195898394205"> الصفحة الرسمية على Facebook</a><br>
+                    <a href="https://www.youtube.com/user/EducationMa" target="_blank">الصفحة الرسمية على Youtube</a><br>
+                    <a href="https://twitter.com/MarocEducation" target="_blank">الصفحة الرسمية على X</a><br>
+                    <a href="Accueil-2.html">استطلاعات للرأي</a><br>
+                    <a href="forum-2.html">منتديات</a>
+                </td>
+                <td style="padding-right: 10px;">
+                    <h4>خدمات</h4>
+                    <a href="#">طلبات العروض</a><br>
+                    <a href="Accueil.aspx">صندوق الاقتراحات</a><br>
+                    <a href="Téléphonique.aspx">دليل الإدارة المركزية</a><br>
+                    <a href="annuaire-2.html">دليل المؤسسات</a><br>
+                    <a href="services.html">خدمات القطاع</a>
+                </td>
+                <td style="padding-right: 10px;">
+                    <h4>روابط مفيدة​</h4>
+                    <a href="https://www.sahara.ma/ar/" target="_blank">بوابة الصحراء المغربية</a><br>
+                    <a href="http://www.cg.gov.ma/" target="_blank">رئيس الحكومة</a><br>
+                    <a href="http://www.mmsp.gov.ma/" target="_blank">الوظيفة العمومية</a><br>
+                    <a href="http://www.sgg.gov.ma/arabe/Accueil.aspx" target="_blank">الأمانة العامة للحكومة</a><br>
+                    <a href="http://www.service-public.ma/web/guest/home" target="_blank">الإدارة العمومية</a><br>
+                    <a href="http://www.emploi-public.ma/ar/index.asp" target="_blank">موقع التشغيل العمومي</a><br>
+                    <a href="https://www.marchespublics.gov.ma/pmmp/?lang=ar" target="_blank">الصفقات العمومية</a><br>
+                    <a href="http://www.service-public.ma/web/guest/home" target="_blank">البوابة الوطنية</a><br>
+                    <a href="http://www.egov.ma/Pages/Default.aspx" target="_blank">الحكومة الإلكترونية</a>
+                </td>
+                <td style="padding-right: 10px;">
+                    <h4>اتصال و بحث</h4>
+                    <a href="pedagintegration.html">اتصال</a><br>
+                    <a href="boite_a_idees.html">علبة الأفكار</a><br>
+                    <a href="Accueil-2.html">محرك البحث</a>
+                    </td>
+                    </tr>
+                    </table>
+                    <div class="copyright">
+                    ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ - ⵜⴰⵎⴰⵡⴰⵙⵜ ⵏ ⵓⵙⴳⵎⵉ ⴰⵏⴰⵎⵓⵔ ⴷ ⵓⵙⵙⵍⵎⴷ ⴰⵎⵣⵡⴰⵔⵓ ⴷ ⵜⵓⵏⵏⵓⵏⵜ © المملكة المغربية - وزارة التربية الوطنية و التعليم الأولي و الرياضة 2024
+                    </div>
+                    </div>
+
+</div>
+
+
+
 
     <!-- content -->
 </div>
