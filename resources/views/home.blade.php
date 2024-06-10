@@ -39,6 +39,7 @@
             text-decoration: none; /* Ensure no underline on hover */
         }
     </style>
+     
 </head>
 <body style="background-image: url('{{ asset('images/fond.gif') }}'); margin-left: 30px;">
 <div id="container" >
@@ -46,251 +47,130 @@
         <div class="content">
                                         
 
-        <nav  style="text-align:center;margin-left:20px;padding-top:5px;" >
-        <a  href="{{ route('home') }}" style="color:white;">Accueil</a>
+        <!-- Navbar for Authentication and Home -->
+    <nav style="text-align:center; margin-left:20px; padding-top:5px; background-color: #343a40;">
+        <a href="{{ route('home') }}" style="color:white; margin-right: 10px;">Accueil</a>
         @if(Auth::check())
-            <a style="color:white;" href="{{ route('logout') }}"
+            <a style="color:white; margin-right: 10px;" href="{{ route('logout') }}"
                onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                 Logout
             </a>
-            <a style="color:white;" href="{{ route('register') }}">s'enregistrer</a>
+            <a style="color:white; margin-right: 10px;" href="{{ route('register') }}">S'enregistrer</a>
             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                 @csrf
             </form>
         @else
-            <a style="color:white;" href="{{ route('login') }}">connexion</a>
-            
+            <a style="color:white; margin-right: 10px;" href="{{ route('login') }}">Connexion</a>
         @endif
     </nav>
 
+    <!-- Logo Image Section -->
+    <div id="DeltaSiteLogo" style="text-align:center; padding: 20px;">
+        <img style="border-radius: 20px; width: 500px; height: 100px;" src="{{ asset('images/logoaccueil.jpg') }}" alt="الصفحة الرئيسية" />
+    </div>
 
-            <div>
-                <h1 class="logo">
-                    <div id="DeltaSiteLogo" style="text-align:center;">
-                            <img style="border-radius: 20px;width: 500px;height: 100px; " class=" " name="onetidHeadbnnr0" src="{{ asset('images/logoaccueil.jpg') }}" alt="الصفحة الرئيسية" />
-                    
-                            
-                    </div>
-
-                </h1>
-
-            </div>
-            <div>
-                <ul id="nav" class="radius menu megamenu" style="margin-top: 80px;margin-bottom: 50px;">
-                    <li><a href="{{ route('home') }}" title="" class="home current active">&nbsp;</a></li>
-            
-                <li id='menuIDARMINISTEREPAGESDEFAULTASPX' class="mm-item" style="float: right;">
-                    <a href="#" class="mm-item-link">الوزارة</a>
-                    
-                    <div class="bradius" tabindex="-1">
-                        <div class="leftSub"><div class="itemMenus"><ul><li class="first">​​​​​​​​​​​​​​​ 
-                                <a href="#">هيكلة القطاع</a>​</li><li>
-                                <a href="BG-ChakibBenmoussa.html">السيد الوزير</a>​</li><li>
-                                <a href="organiramme.html">هيكلة الإدارة المركزية</a>​</li></ul> ​​​​ </div><div class="itemMenus"><ul><li class="first"> 
-                                <a href="#">الاختصاصات​</a>​</li><li> 
-                                <a href="intro_attribution.html">الاختصاصات​</a>​</li><li> 
-                                <a href="organisation.html">اختصاصات المصالح المركزية​</a>​</li><li> 
-                                <a href="aref_loi0700.html">اختصاصات المصالح الخارجية​</a>​</li></ul>​</div></div><div class="rightSub"> 
-                    <img src="{{ asset('images/home2.png') }}" alt="" />
-                    <a href="organisation.html">اختصاصات و تنظيم وزارة التربية الوطنية </a>
-                    <p>اختصاصات و تنظيم وزارة التربية الوطنية </p></div>​ ​​​
-                        <span class="closebradius">إغلاق</span>
-                    </div>
-
-                </li>
-            
-                <li id='menuIDARREFORMEDUPAGESDEFAULTASPX' >
-                    <a href="#" class="mm-item-link mm-item-link-hover">التوجهات الاستراتيجية الكبرى</a>
-                    
-        <div class="bradius" tabindex="-1">
-            <div class="leftSub"><div class="itemMenus"><ul><li class="first">​​​​​​​ 
-                    <a href="#">توجهات</a>​</li><li>
-                    <a href="orientations.html">توجهات</a>​</li><li>
-                    <a href="orientationsroyales.html">خطب ملكية سامية</a>​</li><li>
-                    <a href="charteEF.html">الميثاق الوطني للتربية والتكوين</a>​</li><li>
-                    <a href="Prog-gouv2126.html">البرنامج الحكومي</a>​</li><li>
-                    <a href="prog-sect.html">البرنامج القطاعي</a>​</li></ul><ul></ul></div><div class="itemMenus"><ul><li class="first"> 
-                    <a href="#">المشاريع الاستراتيجية​</a>​</li><li> 
-                    <a href="Vision_strateg_CSEF16004.pdf">الرؤية الاستراتيجية للمجلس الأعلى​</a></li><li> 
-                    <a href="FRoute20222026ar.pdf">خارطة طريق 2022-2026 من أجل مدرسة عمومية ذات جودة ​</a></li></ul></div><div class="itemMenus"><ul><li class="first"> 
-                    <a href="#">القانون الإطار​</a>​</li><li> 
-                    <a href="loicadre1751.html">القانون الإطار رقم 51.17</a></li></ul></div></div><div class="rightSub"> 
-        <img src="{{ asset('images/Marketing-Analysis_Op.jpg') }}" alt="" style="width&#58;159px;height&#58;145px;" />
-        <a href="rapt-nat-inter.html">تقارير وطنية و دولية </a>
-        <p>تقارير وطنية و دولية </p></div>​ ​ ​
-            <span class="closebradius">إغلاق</span>
-        </div>
-
-                </li>
-            
-                <li id='menuIDARREFORMEEDUCATIVEPAGESDEFAULTASPX' >
-                    <a href="#" class="mm-item-link mm-item-link-hover">التربية الوطنية</a>
-                    
-        <div class="bradius" tabindex="-1">
-            <div class="leftSub"><div class="itemMenus"><ul><li class="first"> 
-                    <a href="#">النظام التربوي</a></li><li>
-                    <a href="EnsPresco.aspx">التعليم الأولي</a></li><li>
-                    <a href="ens-preprim.html">التعليم الابتدائي</a></li><li>
-                    <a href="Projet-Curriculum-LagueAmazighe2021.html">مشروع المنهاج الجديد للغة الأمازيغية بالابتدائي-2021</a></li><li>
-                    <a href="prog-repartition_secollege.html">التعليم الثانوي الإعدادي</a></li><li>
-                    <a href="prog-ensqualif.html">التعليم الثانوي التأهيلي</a></li><li>
-                    <a href="bacpro_parpro.html">الباكلوريا المهنية والمسار المهني</a></li><li>
-                    <a href="ensorig_PG.html">الحقيبة التربوية للتعليم الأصيل</a></li><li>
-                    <a href="crclm-eduislam-enspubpriv.html">المنهاج المراجع للتربية الإسلامية</a></li><li>
-                    <a href="bts.html">شهادة التقني العالي</a></li><li>
-                    <a href="CPGE.html">الأقسام التحضيرية للمدارس العليا</a></li><li>
-                    <a href="Ensco-prive.html">التعليم المدرسي الخصوصي</a></li><li>
-                    <a href="ENF.html">التربية غير النظامية</a></li><li> 
-                    <a href="http://www.taalimtice.ma/">برنامج جيني</a></li></ul><ul></ul></div><div class="itemMenus"><ul><li class="first"> 
-                    <a href="#">مهن التربية والتكوين</a></li><li>
-                    <a href="formationdebase.html">التكوين الأساس</a></li><li>
-                    <a href="http://collab.men.gov.ma/">التكوين عن بعد</a></li><li class="first"> 
-                    <a href="#">الارتقاء بالرياضة المدرسية</a></li><li>
-                    <a href="activites-sportsco.html">الأنشطة الرياضية المدرسية</a></li> 
-                <br> 
-                <li class="first"> 
-                    <a href="#">التربية الدامجة</a></li><li>
-                    <a href="EBS.html">البرنامج الوطني للتربية الدامجة لفائدة الاطفال في وضعية إعاقة</a></li><li class="first"> 
-                    <a href="#">التميز</a></li><li> 
-                    <a href="C-excel.html">مباريات التميز</a></li> 
-                <br> 
-                <li class="first"> 
-                    <a href="#">برنامج تيسير</a></li><li>
-                    <a href="Tayssir2021.html">التحويلات المالية المشروطة</a></li> 
-                <br>
-            </ul></div><div class="itemMenus"><ul><li class="first"> 
-                    <a href="#">نصوص قانونية</a></li><li> 
-                    <a href="textesjur.html">اللامركزية و اللاتمركز</a></li><li> 
-                    <a href="Textes-thematiques.aspx">الحوادث المدرسية و حوادث المصلحة</a></li><li> 
-                    <a href="homolog-dip.html">معادلة الشهادات</a></li><li> 
-                    <a href="boursescolaire.html">منح الاستحقاق</a></li>
-                <br>
-                <li class="first">
-                    <a href="#">تنظيم السنة الدراسية</a></li><li> 
-                    <a href="Publication8762.html?IDPublication=7008">تنظيم السنة الدراسية 2023-2024</a></li><li> 
-                    <a href="Publication557c.html?IDPublication=7151">تكييف تنظيم السنة الدراسية 2023-2024</a></li> 
-                <br>
-                <li class="first"> 
-                    <a href="#">الصحة المدرسية</a></li><li> 
-                    <a href="act-sante.html">أنشطة الصحة المدرسية</a></li><li> 
-                    <a href="visites-medicales.html">الأنشطة الطبية والوقائية</a></li> 
-                <br>
-            </ul></div><div class="itemMenus"><ul><li class="first"> 
-                    <a href="#">مؤشرات المنظومة التربوية</a></li><li> 
-                    <a href="Accueil.html/chafafiya/Pages/indices-syspedag.aspx">مؤشرات المنظومة التربوية</a> </li><li> 
-                    <a href="Accueil.html/chafafiya/Pages/statistiques.aspx">إحصائيات</a> </li><li> 
-                    <a href="dssp-etudes.html">دراسات</a> </li><li> 
-                    <a href="rapt-nat-inter.html">تقارير وطنية ودولية</a> </li>
-                <br>
-                <ul><li class="first"> 
-                    <a href="#">التعاون الدولي والشراكات</a></li><li> 
-                    <a href="pagesm.html">مشروع دعم تدبير المؤسسات التعليمية(PAGESM)</a></li><li> 
-                    <a href="partenariat-bailleurs-fonds.html">الشركاء التقنيين والماليين الدوليين</a></li><li> 
-                    <a href="guide-orientation-SCivile.pdf">الدليل الإرشادي للاحتفاء باليوم الوطني للمجتمع المدني</a></li></ul></ul></div></div><div class="rightSub"> 
-        <img src="{{ asset('images/calend2_schoolyear2015.png') }}" alt="" />
-        <a href="Publication8762.html?IDPublication=7008">تنظيم السنة الدراسية 2023-2024</a>
-        <p>تنظيم السنة الدراسية 2023-2024</p></div>
-            <span class="closebradius">إغلاق</span>
-        </div>
-
-                </li>
-            
-                <li id='menuIDARSPORTSPAGESDEFAULTASPX' >
-                    <a href="#" class="mm-item-link mm-item-link-hover">الرياضة</a>
-                    
-        <div class="bradius" tabindex="-1">
-            <div class="leftSub"><div class="itemMenus"><ul><li class="first">
-                    <a href="#">الارتقاء بالرياضة المدرسية</a></li><li> 
-                    <a href="#/Fr/Pages/sportsco.aspx" target="_blank">الرياضة المدرسية</a></li><li> 
-                    <a href="https://www.frmss-dpss.com/الاستقبال/">الجامعة الملكية المغربية للرياضة المدرسية</a></li><li>
-                    <a href="Prog-gouv-sport2126.html">الرياضة في البرنامج الحكومي 2021-2026 </a> </li></ul></div></div><div class="rightSub">
-                        <a href="https://www.frmss-dpss.com/الاستقبال/" title="الجامعة الملكية المغربية للرياضة المدرسية" target="_blank"> 
-                        <img src="{{ asset('images/logo.frmss.png') }}" alt="" style="width&#58;160px;height&#58;192px;" /></a> 
-                        <a href="Publicationee85.html?IDPublication=6810" target="_blank"> 
-                        <center style="text-align&#58;center;"> 
-                            <b>برنامج 2022-2023 </b></center> </a></div>​ ​​​ 
-                        <span class="closebradius">إغلاق</span>
-                    </div>
-                    
-                            </li>
-                    <script>
-                        document.addEventListener('DOMContentLoaded', function() {
-                        var menuLinks = document.querySelectorAll('.mm-item-link');
-                        
-                        // Parcourir tous les liens du menu
-                        menuLinks.forEach(function(menuLink) {
-                        // Ajouter un écouteur d'événement pour chaque lien
-                        menuLink.addEventListener('click', function(event) {
-                            // Empêcher le comportement par défaut du lien (redirection)
-                            event.preventDefault();
-                        
-                            // Trouver le contenu du menu associé
-                            var menuContent = this.parentElement.querySelector('.bradius');
-                        
-                            // Fermer tous les autres menus ouverts
-                            closeAllMenus();
-                        
-                            // Afficher le contenu du menu
-                            menuContent.style.display = 'block';
-                        });
-                        
-                        // Trouver le bouton "Fermer" associé à ce lien de menu
-                        var closeButton = menuLink.parentElement.querySelector('.closebradius');
-                        
-                        // Ajouter un gestionnaire d'événements pour le clic sur le bouton "Fermer"
-                        closeButton.addEventListener('click', function() {
-                            // Trouver le contenu du menu associé au bouton "Fermer"
-                            var menuContent = this.parentElement;
-                        
-                            // Masquer le contenu de la boîte
-                            menuContent.style.display = 'none';
-                        });
-                        });
-                        
-                        // Fonction pour fermer tous les menus ouverts
-                        function closeAllMenus() {
-                        var allMenuContents = document.querySelectorAll('.bradius');
-                        allMenuContents.forEach(function(menuContent) {
-                            menuContent.style.display = 'none';
-                        });
-                        }
-                        });
-                        
-                        
-                        
-                        </script>
-
-
-
-
-
-
-
-                        <div class="selcsize">
-                            <div title="" style="color:white;">
-                                <a href="javascript:decreaseFontSize()" id="ctl00_ctl23_icoMinus" class="icon moins" title="تصغير حجم الخط"></a>
-                                <a href="javascript:increaseFontSize()" id="ctl00_ctl23_icoPlus" class="icon plus" title="تكبير حجم الخط"></a>
-                                
-                            </div>
+    <!-- Main Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{{ route('home') }}">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">الوزارة</a>
+                        <div class="dropdown-menu dropdown-menu-dark menu-content" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">هيكلة القطاع</a>
+                            <a class="dropdown-item" href="BG-ChakibBenmoussa.html">السيد الوزير</a>
+                            <a class="dropdown-item" href="organiramme.html">هيكلة الإدارة المركزية</a>
+                            <a class="dropdown-item" href="intro_attribution.html">الاختصاصات</a>
+                            <a class="dropdown-item" href="organisation.html">اختصاصات المصالح المركزية</a>
+                            <a class="dropdown-item" href="aref_loi0700.html">اختصاصات المصالح الخارجية</a>
                         </div>
-
-
-                        <script src="zoom.min.js">
-                        </script>
-                        <script>
-                            function ZoomMoins() {
-                                zoomout();
-                            }
-                            function ZoomPlus() {
-                                zoomin();
-                            }
-
-
-
-                        </script>
-
-
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false">التوجهات الاستراتيجية الكبرى</a>
+                        <div class="dropdown-menu dropdown-menu-dark menu-content" aria-labelledby="navbarDropdownMenuLink2">
+                            <a class="dropdown-item" href="orientations.html">توجهات</a>
+                            <a class="dropdown-item" href="orientationsroyales.html">خطب ملكية سامية</a>
+                            <a class="dropdown-item" href="charteEF.html">الميثاق الوطني للتربية والتكوين</a>
+                            <a class="dropdown-item" href="Prog-gouv2126.html">البرنامج الحكومي</a>
+                            <a class="dropdown-item" href="prog-sect.html">البرنامج القطاعي</a>
+                            <a class="dropdown-item" href="Vision_strateg_CSEF16004.pdf">الرؤية الاستراتيجية للمجلس الأعلى</a>
+                            <a class="dropdown-item" href="FRoute20222026ar.pdf">خارطة طريق 2022-2026</a>
+                            <a class="dropdown-item" href="loicadre1751.html">القانون الإطار رقم 51.17</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" role="button" data-bs-toggle="dropdown" aria-expanded="false">التربية الوطنية</a>
+                        <div class="dropdown-menu dropdown-menu-dark menu-content" aria-labelledby="navbarDropdownMenuLink3">
+                            <a class="dropdown-item" href="EnsPresco.aspx">التعليم الأولي</a>
+                            <a class="dropdown-item" href="ens-preprim.html">التعليم الابتدائي</a>
+                            <a class="dropdown-item" href="Projet-Curriculum-LagueAmazighe2021.html">مشروع المنهاج الجديد للغة الأمازيغية بالابتدائي-2021</a>
+                            <a class="dropdown-item" href="prog-repartition_secollege.html">التعليم الثانوي الإعدادي</a>
+                            <a class="dropdown-item" href="prog-ensqualif.html">التعليم الثانوي التأهيلي</a>
+                            <a class="dropdown-item" href="bacpro_parpro.html">الباكلوريا المهنية والمسار المهني</a>
+                            <a class="dropdown-item" href="ensorig_PG.html">الحقيبة التربوية للتعليم الأصيل</a>
+                            <a class="dropdown-item" href="crclm-eduislam-enspubpriv.html">المنهاج المراجع للتربية الإسلامية</a>
+                            <a class="dropdown-item" href="bts.html">شهادة التقني العالي</a>
+                            <a class="dropdown-item" href="CPGE.html">الأقسام التحضيرية للمدارس العليا</a>
+                            <a class="dropdown-item" href="Ensco-prive.html">التعليم المدرسي الخصوصي</a>
+                            <a class="dropdown-item" href="ENF.html">التربية غير النظامية</a>
+                            <a class="dropdown-item" href="http://www.taalimtice.ma/">برنامج جيني</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink4" role="button" data-bs-toggle="dropdown" aria-expanded="false">الرياضة</a>
+                        <div class="dropdown-menu dropdown-menu-dark menu-content" aria-labelledby="navbarDropdownMenuLink4">
+                            <a class="dropdown-item" href="#/Fr/Pages/sportsco.aspx" target="_blank">الرياضة المدرسية</a>
+                            <a class="dropdown-item" href="https://www.frmss-dpss.com/الاستقبال/">الجامعة الملكية المغربية للرياضة المدرسية</a>
+                            <a class="dropdown-item" href="Prog-gouv-sport2126.html">الرياضة في البرنامج الحكومي 2021-2026</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
+        </div>
+    </nav>
+
+    <script>
+document.addEventListener('DOMContentLoaded', function () {
+    var menuLinks = document.querySelectorAll('.nav-item.dropdown .nav-link');
+
+    menuLinks.forEach(function (menuLink) {
+        menuLink.addEventListener('click', function (event) {
+            event.preventDefault();
+            var menuContent = this.nextElementSibling;
+            toggleMenu(menuContent); // Basculer l'affichage de la div de contenu associée
+        });
+    });
+
+    function toggleMenu(menuContent) {
+        var isShowing = menuContent.classList.contains('show');
+        closeAllMenus(); // Fermer toutes les autres divs de contenu
+        if (!isShowing) {
+            menuContent.classList.add('show'); // Ouvrir la div de contenu si elle n'est pas déjà affichée
+        }
+    }
+
+    function closeAllMenus() {
+        var allMenuContents = document.querySelectorAll('.menu-content');
+        allMenuContents.forEach(function (menuContent) {
+            menuContent.classList.remove('show');
+        });
+    }
+
+    document.addEventListener('click', function (event) {
+        if (!event.target.matches('.nav-item.dropdown .nav-link')) {
+            closeAllMenus(); // Fermer toutes les divs de contenu si le clic n'est pas sur un lien
+        }
+    });
+});
+</script>
+
+
+
+
 
         
                                             
