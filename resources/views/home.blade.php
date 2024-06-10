@@ -622,7 +622,7 @@
     <div class="content" style="display: inline-block; text-align: right;firection:rtl;">
         <table style="margin: auto;">
             <tr>
-                <td style="padding-right: 10px;">
+            <td style="padding-right: 10px; vertical-align: top;">
                     <h4>فضاءات</h4>
                     <a href="https://waliye.men.gov.ma/Ar/EspacePrive/Pages/Accueil.aspx">فضاء الآباء و الأمهات</a><br>
                     <a href="https://moutamadris.men.gov.ma/Ar/EspacePrive/Pages/Accueil.aspx">فضاء  التلميذات والتلاميذ</a><br>
@@ -633,7 +633,7 @@
                     <a href="http://www.cpge.ac.ma/" target="_blank">الأقسام التحضيرية للمدارس العليا</a><br>
                     <a href="bts-2.html">شهادة التقني العالي</a>
                 </td>
-                <td style="padding-right: 10px;">
+                <td style="padding-right: 10px; vertical-align: top;">
                     <h4>تقاسم</h4>
                     <a href="ListeActualites-2.html">كل المستجدات</a><br>
                     <a href="ToutesPublications.html">إعلانات ومذكرات</a><br>
@@ -645,7 +645,7 @@
                     <a href="Accueil-2.html">استطلاعات للرأي</a><br>
                     <a href="forum-2.html">منتديات</a>
                 </td>
-                <td style="padding-right: 10px;">
+                <td style="padding-right: 10px; vertical-align: top;">
                     <h4>خدمات</h4>
                     <a href="#">طلبات العروض</a><br>
                     <a href="Accueil.aspx">صندوق الاقتراحات</a><br>
@@ -653,7 +653,7 @@
                     <a href="annuaire-2.html">دليل المؤسسات</a><br>
                     <a href="services.html">خدمات القطاع</a>
                 </td>
-                <td style="padding-right: 10px;">
+                <td style="padding-right: 10px; vertical-align: top;">
                     <h4>روابط مفيدة​</h4>
                     <a href="https://www.sahara.ma/ar/" target="_blank">بوابة الصحراء المغربية</a><br>
                     <a href="http://www.cg.gov.ma/" target="_blank">رئيس الحكومة</a><br>
@@ -665,12 +665,13 @@
                     <a href="http://www.service-public.ma/web/guest/home" target="_blank">البوابة الوطنية</a><br>
                     <a href="http://www.egov.ma/Pages/Default.aspx" target="_blank">الحكومة الإلكترونية</a>
                 </td>
-                <td style="padding-right: 10px;">
+                <td style="padding-right: 10px; vertical-align: top;">
                     <h4>اتصال و بحث</h4>
                     <a href="pedagintegration.html">اتصال</a><br>
                     <a href="boite_a_idees.html">علبة الأفكار</a><br>
                     <a href="Accueil-2.html">محرك البحث</a>
-                    </td>
+                </td>
+
                     </tr>
                     </table>
                     <div class="copyright">
